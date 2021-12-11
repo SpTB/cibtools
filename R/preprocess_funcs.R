@@ -16,11 +16,10 @@
 #' @export
 getRats = function(file, sub = NA, full_only=F) {
 
-  start_main = which(str_detect(x$stimulus, 'Great!'))-1
-
   p_range =pics =v_range=NULL
   #get file
   x = data.table::fread(file)
+  start_main = which(str_detect(x$stimulus, 'Great!'))-1
 
   chosen = unique(substr(as.character(x$stimulus[x$trial_type=='image-selector-fb' & x$trial_index>start_main ]),1,13)) ##chosen pics
 

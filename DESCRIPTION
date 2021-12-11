@@ -26,3 +26,5 @@ Imports:
     plyr,
     dplyr,
     skimr
+URL: https://github.com/SpTB/cibtools
+BugReports: https://github.com/SpTB/cibtools/issues

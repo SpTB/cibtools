@@ -1,0 +1,28 @@
+Package: cibtools
+Title: CIB Experiments Analysis Tools
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Wojciech",
+           family = "Zajkowski",
+           role = c("aut", "cre"),
+           email = "wojciech.zajkowski@riken.jp",
+           comment = c(ORCID = "0000-0001-6078-1724"))
+Description: This package contains custom functions for analysing data from the study [Zajkowski & Zhang, 2021](https: //psyarxiv.com/vzqsw/), or any new experiments run using the online task scripts. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    data.table,
+    magrittr,
+    purrr,
+    tidyr,
+    tibble,
+    stringr,
+    readr,
+    ggplot2,
+    forcats,
+    plyr,
+    dplyr,
+    skimr
